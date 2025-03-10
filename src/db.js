@@ -1,4 +1,4 @@
-const { POOL } = require("pg");
+const { Pool } = require("pg");
 
 const db = new Pool({
   user: "docker",
